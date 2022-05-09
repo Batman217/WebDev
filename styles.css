@@ -1,0 +1,111 @@
+body{
+    background-color: rgb(0, 52, 163);
+    border-radius: 50px;
+    border: solid 15px goldenrod;
+    padding: 0px;
+    font-family: 'Times New Roman', serif;
+    font-size: 20px;
+    color: cyan;
+    outline: solid black 100px;
+    margin: 30px;
+}
+
+.body{
+    padding: 50px;
+    padding-top: 0px;
+    margin: 0px;
+}
+
+.header {
+    background-color: rgb(225, 127, 0);
+    width: max-content;
+    height: auto;
+    color: rgb(0, 182, 112);
+    font-size: 75px;
+    padding: 25px;
+    border-radius: 100px;
+    border: double rgb(117, 0, 128) 10px;
+}
+h2 {
+    font-size: 35px;
+}
+a {
+    color: white;
+    font-size: 35px;;
+}
+#Marvel {
+    background-image: url("https://c.tenor.com/yuMS24ShcxQAAAAC/marvel-studios.gif"), url("InfinityWar.jpeg");
+    background-size: initial, contain;
+    background-repeat: no-repeat;
+    background-position: 90% 21%, center 170px;
+}
+
+#DC{
+    background-image: url("https://i.makeagif.com/media/7-29-2016/VLYJZP.gif"), url("https://thumbor.forbes.com/thumbor/711x542/https://blogs-images.forbes.com/robcain/files/2017/11/Justice-League-2.jpg?width=960");
+    background-size: 350px, 100% 1000px;
+    background-repeat: no-repeat;
+    background-position:90% 22%, center 150px;
+  } 
+
+p,ul{
+    color: white;
+    background-color: rgb(135, 0, 27);
+    padding: 30px;
+    border: ridge cyan 10px;
+    opacity: 0.7;
+}
+input {
+    margin-bottom: 20px;
+}
+#Submit{
+    font-size: 25px;
+}
+hr {
+    height: 10px;
+    margin: 0px;
+    background-color: black;
+}
+
+.navbar {
+    display: flex;
+    margin-top: 0px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+    padding: 25px;
+    border: solid black 10px;
+    border-radius: 35px;
+}
+
+form {
+    flex: 50%;
+}
+.flexitem {
+    flex: 50%;
+}
+.flexsp {
+    background-color: green;
+    padding: 30px;
+    border: ridge red 10px;
+    flex: 50%;
+    color: white;
+    margin: 50px 50px 200px 200px;
+}
+
+.footer {
+    display: flex;
+    background-color: rgba(0, 255, 60, 0.68);
+    padding: 0px 25px 0px 25px;
+    justify-content: space-around;
+    border-radius: 0px 0px 35px 35px;
+    color: rgb(255, 191, 0);
+    text-decoration: solid;
+    border-top: solid darkgreen 30px;
+}
+
+hr {
+    height: 270px;
+    width: 5px;
+    margin: 0px;
+    display: block;
+}
